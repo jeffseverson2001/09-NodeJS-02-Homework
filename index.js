@@ -25,11 +25,11 @@ const questions = [
         message: "Enter the Usage Information: ",
         name: "usage"
     },
-    //{
-    //    type: "input",
-    //    message: "Enter the Contribution Guidelines: ",
-    //    name: "contribution"
-    //},
+    {
+        type: "input",
+        message: "Enter Credits Here: ",
+        name: "credits"
+    },
     {
         type: "input",
         message: "Enter the Test Instructions: ",

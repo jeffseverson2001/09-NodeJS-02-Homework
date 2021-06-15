@@ -4,11 +4,11 @@ function renderLicenseBadge(license) {
   let badge = ""
   if (license === "MIT")
     badge = "[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
-  else if (license === "Apache License 2.0")
+  else if (license === "Apache 2.0")
     badge = "[License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)"
   else if (license === "GNU GPLv3")
     badge = "[License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)"
-  else if (license === "MPL License 2.0")
+  else if (license === "MPL 2.0")
     badge = "[License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)"
 
   return badge
@@ -20,11 +20,11 @@ function renderLicenseLink(license) {
   let link = ""
   if (license === "MIT")
     link = "(https://opensource.org/licenses/MIT)"
-  else if (license === "Apache License 2.0")
+  else if (license === "Apache 2.0")
     link = "(https://opensource.org/licenses/Apache-2.0)"
   else if (license === "GNU GPLv3")
     link = "(http://www.gnu.org/licenses/gpl-3.0)"
-  else if (license === "MPL License 2.0")
+  else if (license === "MPL 2.0")
     link = "(https://opensource.org/licenses/MPL-2.0)"
 
   return link
@@ -41,7 +41,7 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `!${renderLicenseBadge(data.license)}
+  return "!" + `${renderLicenseBadge(data.license)}
   
   # ${data.title}
 
@@ -69,8 +69,7 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
 
   ## How to Contribute
-  ${data.contribution}
-  ![Contributor Covenant](https://www.contributor-covenant.org/)
+  [Contributor Covenant](https://www.contributor-covenant.org/)
 
   ## Tests
   ${data.test}

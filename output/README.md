@@ -1,39 +1,35 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
   
-  # Jeff Severson
+  # JJJJ
 
   ## Description
-  This is my Description
+  
 
   ## Table of Contents
   - [Description](#description)
   - [Usage](#usage) 
   - [Credits](#credits)   
   - [License](#license) 
-  - [Features](#features)
   - [How to Contribute](#how-to-contribute)
   - [Tests](#tests)
 
   ## Installation
-  Install this way
+  
 
   ## Usage
-  Usage Here
+  
 
   ## Credits
-  undefined
+  
 
   ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-  ## Features
-  undefined
+  [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## How to Contribute
-  Contributor Covenant
+  [Contributor Covenant](https://www.contributor-covenant.org/)
 
   ## Tests
-  Test this way
+  
 
   ## Questions
   * For additional help or questions about collaboration, please reach out to jeffseverson2001@gmail.com
