@@ -6,7 +6,6 @@ Homework Week 9
 README file generator
 
 - Creates a README.md file from a list of questions.
-- 
 
 ## Installation Instructions
 
@@ -19,7 +18,7 @@ README file generator
 - Leave a section blank to not have anything in a section
 
 
-![alt README Generator](assets/)
+![alt README Generator](output/09-NodeJS-02-Homework.jpg)
 
 
 ##  Credits
